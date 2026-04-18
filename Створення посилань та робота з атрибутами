@@ -1,0 +1,16 @@
+<html lang="ua">  
+    <head>
+            <meta charset="utf-8">
+            <meta name="description" content="info">
+            <title>HTML сторінка</title>
+            
+            
+    </head>
+    <body>
+        <a href="https://validator.w3.org/nu/" title="Перевірка коду" target="_blank"> Посилання </a>
+            <!-- href - атрибут для посилання , для тегу <a> атрибут target вказує де буде відкриватись посилання  -->
+        <br>
+                <a href="/about.html"> Інша сторінка сайту  </a>
+                <!-- Відкриваєм іншу сторінку сайту через файл about.html-->
+            </body>
+</html>
