@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ua">  
+    <head>
+            <meta charset="utf-8">
+            <meta name="description" content="info">
+            <title>HTML сторінка</title>
+            
+            
+    </head>
+    <body>
+        <ul> 
+            <li>Перший елемент</li>
+            <li>2 елемент</li>
+            <li>3 елемент</li>
+            <li>4 елемент</li>
+            <li>5 елемент</li>
+            <li>6 елемент</li>
+        </ul>
+        <!-- Непронумерований список -->
+
+        <ol start = "8" type ="I"> 
+            <li>Перший елемент</li>
+            <li>2 елемент</li>
+            <li>3 елемент</li>
+            <li>4 елемент</li>
+            <li>5 елемент</li>
+            <li>6 елемент</li>
+        </ol>
+        <!-- Пронумерований список -->
+
+
+        <dl>
+	<dt> HTML </dt>
+	<dd> Мова розмітки </dd>
+    </dl>
+
+    <!--Список визначень в <dt> - слово в <dd> - його визначення-->
+            </body>
+</html>
