@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ua">  
+    <head>
+            <meta charset="utf-8">
+            <meta name="description" content="info">
+            <title>HTML сторінка</title>
+            
+            
+    </head>
+    <body>
+       <center><table border ="px" cellspacing="0" cellpadding="10px">
+            <caption>Користувачі</caption>
+            <!-- Назва таблиці (caption) -->
+            <tr>
+                <!--Рядок(tr)-->
+                <th>Імя</th>
+                <!--Назва стовпця для інфи (th) -->
+                <th>Вік</th>
+                <th>Пошта</th>
+            </tr>
+            <tr>
+               <td>John</td> 
+               <!--Інфа в комірці (td)-->
+               <td>15</td>
+               <td>john@mail.com</td>
+            </tr>
+            <tr>
+               <td>Jony</td> 
+               <td>17</td>
+               <td>jony@mail.com</td>
+            </tr>
+            <tr>
+               <td>dima</td> 
+               <td>17</td>
+               <td>dimon@mail.com</td>
+            </tr>
+            <tr><td colspan="3">К-сть: 3</td></tr>
+            <!--colspan - обєднання комірок-->
+        </table></center>
+    </body>
+</html>
