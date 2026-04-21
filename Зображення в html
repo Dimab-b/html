@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="ua">  
+    <head>
+            <meta charset="utf-8">
+            <meta name="description" content="info">
+            <title>HTML сторінка</title>
+            
+            
+    </head>
+    <body>
+        <img src="https://cs6.pikabu.ru/post_img/2014/03/30/11/1396204203_1567099610.jpg"title="пьос рамштайн" width="30%" height="50%" alt="пес індія">
+        <!-- src - звідки берем фото, title - при наведені на фото текст , alt - альтернативна назва якщо зображення залагає ,width - ширина , height - висота -->
+            <img src="/img/Anubi_colpi-mob.webp" alt="хз" width="350px">
+    <!-- з папки img витягнули зображення -->
+    </body>
+</html>
