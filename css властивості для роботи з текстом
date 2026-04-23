@@ -1,0 +1,19 @@
+p{
+    color: rgb(255, 145, 0);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: not-allowed;
+    background-color: rgba(255, 0, 0, 0.144);
+    letter-spacing: -0.5px;
+    line-height: 90%;
+    text-align:center;
+    text-decoration:underline;
+    text-decoration-color: red;
+    text-transform: capitalize;
+    text-indent: 10px;
+    word-spacing: 5px;
+    word-break: break-all;
+
+}
