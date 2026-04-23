@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:1000px ;
+}
+
+.block{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #333;
+    width: 400px;
+    height: 300px;
+    border: 5px dashed grey;
+    box-sizing: border-box;
+    border-bottom: 7px dotted green;
+    border-radius:30px 190px 45px 190px;
+    /* border-bottom-right-radius: 70px; */
+    opacity : .97;
+    margin: 50px 90px ;
+    padding: 50px ;
+    overflow: scroll;
+
+
+
+}
+textarea{
+    width: 200px;
+    max-width: 300px;
+    min-width: 150px;
+    max-height: 100px;
+    min-height: 50px;
+}
+#bb {
+    resize: none;
+}
+.blocks {
+    display:inline-block;
+    margin :10px;
+}
+
+
+#image-full-page{
+    width: 100%;
+    height: 500px;
+    background-image:url(../img/depositphotos_124824818-stock-illustration-polygon-abstract-arrows-background.jpg) ;
+    margin-top: 50px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-attachment:fixed ;
+    background-blend-mode: multiply ;
+    background-color: rgba(0, 0, 0, 0.466);
+}
