@@ -1,0 +1,16 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+@font-face{
+font-family: marck;
+src:url(../fonts/MarckScript-Regular.ttf);
+}
+p.txt{
+font-family: marck , sans-serif;
+font-weight: 400;
+}
+
+.dodiku{
+    font-family: "Pattaya", sans-serif;
+
+}
