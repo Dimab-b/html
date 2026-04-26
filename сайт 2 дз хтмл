@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Marck+Script&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header>
+        <div class="main-header">
+            <div class="logo">
+            <a href="/">ItProger</a>
+        </div>
+         <div class="search">
+         <input type="text" name="search" id="search" placeholder="Пошук...">
+       </div>
+        <div class="btn">
+            <a href="/"class="main-btn">Головна</a>
+            <a href="/"class="blog-btn">Блог</a>
+            <a href="/"class="contact-btn">Контакти</a>
+            <a href="/"class="about-btn">Про  нас</a>
+       </div>
+
+       <!-- <div class="search">
+         <input type="text" name="search" id="search" placeholder="Пошук...">
+       </div> -->
+
+
+
+        </div>
+    </header>
+    <main>
+        <div class="news">
+            <h3>Останні новини IT</h3>
+            <p>04:02
+Найбільший у світі виробник чипів TSMC представив нову мікросхему
+Компанія Taiwan Semiconductor Manufacturing Company (TSMC), найбільший у світі контрактний виробник мікросхем, презентувала новий чип.</p>
+        <img src="https://img.freepik.com/free-photo/connection-bond-connect-networking-togetherness-concept_53876-121224.jpg?semt=ais_hybrid&w=740&q=80" alt="крута фотка айті">
+
+</div>
+        <div class="message">
+            <h1>Повідомлення</h1>
+            <p> <mark>Автор</mark> цієї сторінки тіп дуже крутий , респект йому , він за сьогодні дуже змучився , останнє відео з вертскою забрало багато часу , але він дуже щасливий , вийшла красота , надіюсь доля зведе автора з великими грошима , щоб купити тайкан турбо с , автор ходить в зал , даі в загальному нічо такий пацик.</p>
+        </div>
+
+    </main>
+
+
+    <footer>
+        <div class="foot">
+            <span>Всі права захищені <sup> © </sup></span>
+            
+            <h1>Крутий <abbr title="Засоби масової інформації" class="loh">ЗМІ</abbr> портал!</h1>
+            <div class="socialku">
+            <a href="/"class="youtube">Youtube</a>
+            <a href="/"class="twitter">Twitter</a>
+            <a href="/"class="facebook">FaceBook</a>
+            <a href="/"class="instagram">Instagram</a>
+        </div>
+            </div>
+    </footer>
+
+
+</body>
+</html>
