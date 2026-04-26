@@ -1,0 +1,239 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Marck+Script&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Cormorant SC', serif; 
+    font-size: 16px;
+}
+
+
+
+header{
+    float: left;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(105, 105, 105);
+    border-bottom: 5px solid rgb(0, 204, 255);
+}
+
+header .main-header{
+    width: 90%;
+    margin:0 5%;
+}
+
+header .logo {
+    float: left;
+}
+header .logo a{
+    font-family: 'Marck Script', cursive;
+    display: inline-block;
+    margin-top:25px;
+    font-weight: 400;
+    font-size: 2rem;
+    color: aqua;
+
+}
+
+header .main-header .btn{
+    float: right;
+    margin-top:35px ;
+    /* margin-right: 200px; */
+    
+
+}
+
+
+header .main-header .btn a {
+    display: inline-block;
+    margin-left: 50px;
+    font-family: 'Cormorant SC', serif;
+    color: azure;
+    font-weight: 800;
+    border: none;
+    background: transparent; 
+    outline: none;
+    transition: color 0.3s;
+    box-shadow: none;
+    
+
+}
+
+
+header .main-header .btn a:hover{
+   color: gray;
+box-shadow: 1px 0px 40px 12px rgba(97,209,133,0.75);
+-webkit-box-shadow: 1px 0px 40px 12px rgba(97,209,133,0.75);
+-moz-box-shadow: 1px 0px 40px 12px rgba(97,209,133,0.75);
+}
+
+header .main-header .search{
+    float: right;
+    /* height: 35px; */
+   margin-top: 35px ;
+   margin-left: 31%;
+   
+}
+
+header .main-header #search{
+  
+   font-family: 'Cormorant SC', serif;
+   outline: none;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+  padding-left: 15px;
+  width: 150px;
+  font-size: 15px;
+  height: 30px;
+
+    
+}
+
+
+main{
+    height: 900px;
+}
+main div.news{
+    float: left;
+    background-color:rgba(249, 250, 228, 0.349);
+    width: 40%;
+    height: 450px;
+    margin: 5% 9% ;
+    border: 2px solid rgb(255, 196, 196);
+}
+
+main div.news img{
+    float: left;
+    width: 500px;
+    margin-top: 43px;
+    margin-left: 17%;
+    height: 250px;
+
+}
+
+main div.news h3{
+    float: left;
+    font-weight: 800;
+    font-size: 30px;
+    color: red;
+    font-style: oblique;
+    margin-left: 50px;
+}
+
+
+main div.news p{
+    float: left;
+    margin-left: 50px;
+    font-size: 17px;
+    color: rgb(151, 149, 149);
+
+}
+
+
+main div.message {
+    float: right;
+    width: 30%;
+    background-color: rgba(249, 250, 228, 0.349);
+    border: 2px solid rgb(255, 196, 196);
+    margin-right: 10%;
+    margin-top: 5%;
+    height: 200px;
+
+}
+
+
+
+main div.message h1{
+    font-weight: 800;
+    font-size: 24px;
+    padding: 10px 20px ;
+    color: red;
+    font-style: oblique;
+
+}
+
+main div.message p{
+    padding: 10px 20px ;
+    font-size: 17px;
+    color: rgb(151, 149, 149);
+}
+
+
+footer{
+    float: left;
+    width: 100%;
+    background-color: rgb(31, 26, 26);
+    height: 250px;
+    border-top: 3px solid rgb(151, 90, 90);
+}
+
+
+footer .foot span{
+    color: aqua;
+    float: left;
+    margin-top: 210px;
+    font-weight: 800;
+    font-size: 28px;
+    margin-left: 20px;
+}
+
+
+
+footer .foot  h1{
+    color: rgb(171, 255, 255);
+    float: left;
+    font-weight: 800;
+    font-size: 40px;
+    margin-left: 25%;
+    margin-top: 30px;
+}
+
+footer .foot abbr{
+    
+    font-size: 40px; 
+}
+
+
+footer .foot .socialku{
+    float: right;
+    margin-right: 37%;
+    margin-top:50px ;
+    
+
+}
+
+footer .foot a{
+    margin-left: 45px;
+    color: white;
+    border-radius: 4px;
+    font-size: 20px;
+}
+
+footer .foot .youtube{
+    background-color: red;
+}
+
+
+footer .foot .twitter{
+    background-color:rgba(144, 252, 252, 0.733);
+}
+
+
+footer .foot .facebook{
+    background-color:rgb(89, 89, 226);
+}
+
+
+footer .foot .instagram{
+    background-color: rgb(150, 78, 78);
+}
